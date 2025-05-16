@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Las Miches</title>
- 
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -18,6 +17,12 @@
       color: white;
       padding: 20px 40px;
       text-align: center;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-top: 10px;
     }
     nav {
       text-align: center;
@@ -59,12 +64,23 @@
       padding: 20px;
       text-align: center;
     }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
-  
+
   <header>
-    <h1>Las Miches</h1><img src="https://scontent.fptx1-1.fna.fbcdn.net/v/t39.30808-1/460917021_122136668204334131_4281809640452194261_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=oVjen47mQzEQ7kNvwHCdOQI&_nc_oc=AdlEftGBpXLGSfA6oiKU5kHgD5U3Nu6cAZ9Ssu0ywr-AxVekA7ntk_nG9FAEcD6VmJE&_nc_zt=24&_nc_ht=scontent.fptx1-1.fna&_nc_gid=RX2RJ2Fdn4RwOuI7-Z-hkA&oh=00_AfISUXi2IkLQjp-HlrdChGoElMYKK2XRRmWy3m8oPSCfBQ&oe=682D4EA0">
+    <h1>Las Miches</h1>
+    <img src="https://scontent.fptx1-1.fna.fbcdn.net/v/t39.30808-1/460917021_122136668204334131_4281809640452194261_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=oVjen47mQzEQ7kNvwHCdOQI&_nc_oc=AdlEftGBpXLGSfA6oiKU5kHgD5U3Nu6cAZ9Ssu0ywr-AxVekA7ntk_nG9FAEcD6VmJE&_nc_zt=24&_nc_ht=scontent.fptx1-1.fna&_nc_gid=RX2RJ2Fdn4RwOuI7-Z-hkA&oh=00_AfISUXi2IkLQjp-HlrdChGoElMYKK2XRRmWy3m8oPSCfBQ&oe=682D4EA0" alt="Logo Las Miches">
     <p>¡Las mejores micheladas en Isnos, Huila!</p>
   </header>
 
@@ -75,7 +91,7 @@
   </nav>
 
   <section class="hero">
-   <div style="color: #f566ff;">¡Disfruta cada sorbo!</div>
+    <div style="color: #f566ff;">¡Disfruta cada sorbo!</div>
   </section>
 
   <section class="content" id="nosotros">
@@ -86,8 +102,10 @@
   <section class="content" id="menu">
     <h2>Menú</h2>
     <p>Ofrecemos una gran variedad de micheladas con diferentes sabores, presentaciones y niveles de picante.</p>
-    <ul style="list-style: none; padding: 0;">
-      <img src="https://scontent.fptx1-1.fna.fbcdn.net/v/t39.30808-6/497460341_122178600944334131_4831938967848997900_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=669761&_nc_ohc=k_xgAoYmr0MQ7kNvwGdEOKQ&_nc_oc=Adkc1pezpji-yw0W3CoFZo-IUUzPNEbrC8wltqq4L0BiRtBn94d_wL5oTqz12gojxec&_nc_zt=23&_nc_ht=scontent.fptx1-1.fna&_nc_gid=SSmjRM6tQCT5I5LmtGQ_NA&oh=00_AfKgKbeAgIc2fMOBAjIQ8vBpyrAiJc5-oXfztKsbsWpa1Q&oe=682D6CD4">
+    <ul>
+      <li>
+        <img src="https://scontent.fptx1-1.fna.fbcdn.net/v/t39.30808-6/497460341_122178600944334131_4831938967848997900_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=669761&_nc_ohc=k_xgAoYmr0MQ7kNvwGdEOKQ&_nc_oc=Adkc1pezpji-yw0W3CoFZo-IUUzPNEbrC8wltqq4L0BiRtBn94d_wL5oTqz12gojxec&_nc_zt=23&_nc_ht=scontent.fptx1-1.fna&_nc_gid=SSmjRM6tQCT5I5LmtGQ_NA&oh=00_AfKgKbeAgIc2fMOBAjIQ8vBpyrAiJc5-oXfztKsbsWpa1Q&oe=682D6CD4" alt="Michelada">
+      </li>
     </ul>
   </section>
 
@@ -98,8 +116,8 @@
       <a href="https://www.facebook.com/profile.php?id=100063651458354" target="_blank">Facebook: Las Miches</a>
     </div>
     <p>📍 Isnos, Huila</p>
-    <p>📲 Contáctanos por DM para pedidos y reservas</p><li> 314 4133627- 318 4188017
-    
+    <p>📲 Contáctanos por DM para pedidos y reservas</p>
+    <p>📞 314 4133627 - 318 4188017</p>
   </section>
 
   <footer>
